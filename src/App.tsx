@@ -9,12 +9,11 @@ function App() {
     <div className="App">
       <h1>Database Analyzer 🧐</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <h3>
+          Cyclomatic Complexity
+        </h3>
+        <Latex displayMode={true}>$$(3\times 4) \div (5-3)$$</Latex>
+        <input onClick={() => setCount((count) => count + 1)} />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
