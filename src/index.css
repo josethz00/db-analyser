@@ -67,3 +67,45 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+div.card > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: flex-start;
+}
+
+div.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+div.input-group > input {
+  width: 100%;
+}
+
+div.links-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+div.links-section > a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  text-align: left;
+}
+
+div.card > article {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+div.card > article > p {
+  text-align: left;
+}
